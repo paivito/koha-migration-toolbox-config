@@ -9,13 +9,9 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW #tämä pois
+1: REVIEW #tämä pois (en saa voikkarista poistettua)
 2: LAIN14VRK
-3: REF0VRK #tämä pois
-4: LAIN7VRK 
-5: LAINEJULK #tämä pois                                                                                                                  
-6: POIS #tämä pois
-7: LAIN28VRK #tämä pois
+4: LAIN7VRK                                                                                                         
 # If you have mappings such as these, one should carefully consider to instead use item type as a
 # description of the Item's external appearance. Koha has many levels to organize and categorize items
 # and their respective circulation rules
