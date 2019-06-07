@@ -9,7 +9,7 @@
 
 #voyager.ITEM_TYPE
 #ITEM_TYPE_ID       ,ITEM_TYPE_CODE, ITEM_TYPE_NAME, ITEM_TYPE_DISPLAY
-1: REVIEW #tämä pois (en saa voikkarista poistettua)
+1: REVIEW #ei kohaan
 2: LAIN14VRK
 4: LAIN7VRK                                                                                                         
 # If you have mappings such as these, one should carefully consider to instead use item type as a
