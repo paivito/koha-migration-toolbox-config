@@ -1,73 +1,73 @@
 ##  branchLoc-sulkujen väliin tulee alla olevan rivin mukaiset sijainnit kohassa, pilkulla eroteltuna, samalla tavalla kuin _DEFAULT_ rivill
 ##  branchcode, shelving_location, collection_code, sub_location, item.itemtype, item.notforloan-status
 
-1: branchLoc(KONVERSIO, KONVERSIO) # REVIEW     REVIEW
+1: branchLoc(EI_KOHAAN,EI_REVIEW,EI_KOHAAN) # REVIEW     REVIEW
 +REVIEW: ref(1)
-2: branchLoc(KONVERSIO, KONVERSIO) # TOlain     Centria-kirjasto Ylivieska, lainaosasto, laina-aika 14vrk
+2: branchLoc(TO,LAIN) # TOlain     Centria-kirjasto Ylivieska, lainaosasto, laina-aika 14vrk
 +TOlain: ref(2)
-3: branchLoc(KONVERSIO, KONVERSIO) # TOref      Centria-kirjasto Ylivieska, käsikirjasto, ei lainata
+3: branchLoc(TO,REF) # TOref      Centria-kirjasto Ylivieska, käsikirjasto, ei lainata
 +TOref: ref(3)
-4: branchLoc(KONVERSIO, KONVERSIO) # TOopin     Centria-kirjasto Ylivieska opinnäytetyöt, laina-aika 14vrk
+4: branchLoc(TO,OPIN) # TOopin     Centria-kirjasto Ylivieska opinnäytetyöt, laina-aika 14vrk
 +TOopin: ref(4)
-5: branchLoc(KONVERSIO, KONVERSIO) # TOvar      Centria-kirjasto Ylivieska, varasto, laina-aika 14vrk
+5: branchLoc(TO,VAR) # TOvar      Centria-kirjasto Ylivieska, varasto, laina-aika 14vrk
 +TOvar: ref(5)
-6: branchLoc(RKlain, EI_KOHAAN) # RKlain     Centria-kirjasto Raudaskylä, lainaosasto, laina-aika 14vrk
+6: branchLoc(EI_KOHAAN,EI_RKlain, EI_KOHAAN) # RKlain     Centria-kirjasto Raudaskylä, lainaosasto, laina-aika 14vrk
 +RKlain: ref(6)
-7: branchLoc(RKref, EI_KOHAAN) # RKref      Centria-kirjasto Raudaskylä, käsikirjasto, ei lainata
+7: branchLoc(EI_KOHAAN_EI_RKref, EI_KOHAAN) # RKref      Centria-kirjasto Raudaskylä, käsikirjasto, ei lainata
 +RKref: ref(7)
-8: branchLoc(KONVERSIO, KONVERSIO) # KKlain     Centria-kirjasto Kokkola, lainaosasto, laina-aika 14vrk
+8: branchLoc(KK,LAIN) # KKlain     Centria-kirjasto Kokkola, lainaosasto, laina-aika 14vrk
 +KKlain: ref(8)
-9: branchLoc(KONVERSIO, KONVERSIO) # KKref      Centria-kirjasto Kokkola, käsikirjasto, ei lainata
+9: branchLoc(KK,REF) # KKref      Centria-kirjasto Kokkola, käsikirjasto, ei lainata
 +KKref: ref(9)
-10: branchLoc(KONVERSIO, KONVERSIO) # KKopin     Centria-kirjasto Kokkola, opinnäytetyöt, laina-aika 14vrk
+10: branchLoc(KK,OPIN) # KKopin     Centria-kirjasto Kokkola, opinnäytetyöt, laina-aika 14vrk
 +KKopin: ref(10)
-11: branchLoc(KONVERSIO, KONVERSIO) # KKkau      Centria-kirjasto Kokkola, kausijulkaisut, laina-aika 7vrk
+11: branchLoc(KK,KAU) # KKkau      Centria-kirjasto Kokkola, kausijulkaisut, laina-aika 7vrk
 +KKkau: ref(11)
-12: branchLoc(CKlain, EI_KOHAAN) # CKlain     Centria lainaosasto, Haapajärvi, laina-aika 14vrk
+12: branchLoc(EI_KOHAAN,EI_CKlain, EI_KOHAAN) # CKlain     Centria lainaosasto, Haapajärvi, laina-aika 14vrk
 +CKlain: ref(12)
-14: branchLoc(KONVERSIO, KONVERSIO) # KKLUETT
+14: branchLoc(KK,LUETT) # KKLUETT
 +KKLUETT: ref(14)
-16: branchLoc(KONVERSIO, KONVERSIO) # KKLAINAUS
+16: branchLoc(KKLAINAUS) # KKLAINAUS            Happening location
 +KKLAINAUS: ref(16)
-17: branchLoc(KONVERSIO, KONVERSIO) # RKLAINAUS
+17: branchLoc(EI_KOHAAN,EI_RKLAINAUS,EI_KOHAAN) # RKLAINAUS
 +RKLAINAUS: ref(17)
-18: branchLoc(KONVERSIO, KONVERSIO) # TOLAINAUS
+18: branchLoc(TOLAINAUS) # TOLAINAUS            Happening location
 +TOLAINAUS: ref(18)
-20: branchLoc(KONVERSIO, KONVERSIO) # TOLUETT
+20: branchLoc(TO,LUETT) # TOLUETT               Centria Yka LUETTELOINTI
 +TOLUETT: ref(20)
-21: branchLoc(CKLAINAUS, EI_KOHAAN) # CKLAINAUS
+21: branchLoc(EI_KOHAAN,EI_CKLAINAUS, EI_KOHAAN) # CKLAINAUS
 +CKLAINAUS: ref(21)
-22: branchLoc(POIS, EI_KOHAAN) # POIS
+22: branchLoc(EI_KOHAAN,EI_POIS,EI_KOHAAN) # POIS
 +POIS: ref(22)
-24: branchLoc(KONVERSIO, KONVERSIO) # KKhank     Centria-kirjasto Kokkola hankinta
+24: branchLoc(KK,HANK) # KKhank     #Centria-kirjasto Kokkola hankinta
 +KKhank: ref(24)
-25: branchLoc(KONVERSIO, KONVERSIO) # KKSELF
+25: branchLoc(KK,SELF) # KKSELF
 +KKSELF: ref(25)
-26: branchLoc(RKSELF, EI_KOHAAN) # RKSELF
+26: branchLoc(EI_KOHAAN_EI_RKSELF, EI_KOHAAN) # RKSELF
 +RKSELF: ref(26)
-27: branchLoc(KONVERSIO, KONVERSIO) # KKHANKINTA
+27: branchLoc(KK,HANKINTA) # KKHANKINTA
 +KKHANKINTA: ref(27)
-28: branchLoc(KONVERSIO, KONVERSIO) # TOHANKINTA
+28: branchLoc(TO,HANKINTA) # TOHANKINTA
 +TOHANKINTA: ref(28)
-29: branchLoc(RKHANKINTA, EI_KOHAAN) # RKHANKINTA
+29: branchLoc(EI_KOHAAN,EI_RKHANKINTA, EI_KOHAAN) # RKHANKINTA
 +RKHANKINTA: ref(29)
-30: branchLoc(KONVERSIO, KONVERSIO) # Ejulk      Verkkojulkaisut. Käyttö internetissä
+30: branchLoc(E,JULK) # Ejulk      Verkkojulkaisut. Käyttö internetissä
 +Ejulk: ref(30)
-31: branchLoc(RKHANK1, EI_KOHAAN) # RKHANK1
+31: branchLoc(EI_KOHAAN,EI_RKHANK1, EI_KOHAAN) # RKHANK1
 +RKHANK1: ref(31)
-33: branchLoc(KONVERSIO, KONVERSIO) # TOkau      Centria-kirjasto Ylivieska, kausijulkaisut, laina-aika 14vrk
+33: branchLoc(TO,KAU) # TOkau      Centria-kirjasto Ylivieska, kausijulkaisut, laina-aika 14vrk
 +TOkau: ref(33)
-34: branchLoc(KONVERSIO, KONVERSIO) # KKvar      Centria-kirjasto, Kokkola, varasto
+34: branchLoc(KK,VAR) # KKvar      Centria-kirjasto, Kokkola, varasto
 +KKvar: ref(34)
-35: branchLoc(KONVERSIO, KONVERSIO) # TOSELF
+35: branchLoc(TO,SELF) # TOSELF
 +TOSELF: ref(35)
-36: branchLoc(KONVERSIO, KONVERSIO) # KKcd       Centria-kirjasto Kokkola, CD-levyt, laina-aika 14 vrk
+36: branchLoc(EI_KOHAAN,EI_KKcd,EI_KOHAAN) # KKcd       Centria-kirjasto Kokkola, CD-levyt, laina-aika 14 vrk
 +KKcd: ref(36)
-37: branchLoc(RKkau, EI_KOHAAN) # RKkau      Centria-kirjasto Raudaskylä kausijulkaisut, laina-aika 14vrk
+37: branchLoc(EI_KOHAAN,EI_RKkau, EI_KOHAAN) # RKkau      Centria-kirjasto Raudaskylä kausijulkaisut, laina-aika 14vrk
 +RKkau: ref(37)
-40: branchLoc(KONVERSIO, KONVERSIO) # Colibri
+40: branchLoc(COLIBRI) # Colibri                 "Call Slip"
 +Colibri: ref(40)
-41: branchLoc(KONVERSIO, KONVERSIO) # CKTK       Tietokannat
+41: branchLoc(CK,TK) # CKTK       Tietokannat
 +CKTK: ref(41)
 
 _DEFAULT_: branchLoc(KONVERSIO, KONVERSIO, KONVERSIO, KONVERSIO) #Oletusarvot / paikkaansa löytämättömät
