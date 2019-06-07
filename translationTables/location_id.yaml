@@ -27,8 +27,6 @@
 +CKlain: ref(12)
 14: branchLoc(KONVERSIO, KONVERSIO) # KKLUETT
 +KKLUETT: ref(14)
-15: branchLoc(KONVERSIO, KONVERSIO) # RKLUETT
-+RKLUETT: ref(15)
 16: branchLoc(KONVERSIO, KONVERSIO) # KKLAINAUS
 +KKLAINAUS: ref(16)
 17: branchLoc(KONVERSIO, KONVERSIO) # RKLAINAUS
@@ -57,8 +55,6 @@
 +Ejulk: ref(30)
 31: branchLoc(KONVERSIO, KONVERSIO) # RKHANK1
 +RKHANK1: ref(31)
-32: branchLoc(KONVERSIO, KONVERSIO) # KKpois
-+KKpois: ref(32)
 33: branchLoc(KONVERSIO, KONVERSIO) # TOkau      Centria-kirjasto Ylivieska, kausijulkaisut, laina-aika 14vrk
 +TOkau: ref(33)
 34: branchLoc(KONVERSIO, KONVERSIO) # KKvar      Centria-kirjasto, Kokkola, varasto
@@ -69,10 +65,6 @@
 +KKcd: ref(36)
 37: branchLoc(KONVERSIO, KONVERSIO) # RKkau      Centria-kirjasto Raudaskylä kausijulkaisut, laina-aika 14vrk
 +RKkau: ref(37)
-38: branchLoc(KONVERSIO, KONVERSIO) # KKscan     Lainattava skanneri, laina-aika 2 h
-+KKscan: ref(38)
-39: branchLoc(KONVERSIO, KONVERSIO) # CKkarryt   Lainattava kirjakärry, laina-aika 28 vrk
-+CKkarryt: ref(39)
 40: branchLoc(KONVERSIO, KONVERSIO) # Colibri
 +Colibri: ref(40)
 41: branchLoc(KONVERSIO, KONVERSIO) # CKTK       Tietokannat
