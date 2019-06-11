@@ -12,17 +12,17 @@
 #FINE_FEE_TYPE,               FINE_FEE_DESC, FINE_FEE_CODE
 #   mapping
 1:  O                        #"Overdue","F1"
-2:  L                        #"Lost Item Replacement", "F2"
-3:  L                        #"Lost Item Processing", "F3"
-4:  F                        #"Media Booking Late Charge","F4"
-5:  Rent                     #"Media Booking Usage Fee","F5"
-6:  Rep                      #"Equipment Replacement","F6"
-7:  L                        #"Lost Equipment Processing","F7"
-8:  FU                       #"Accrued Fine","F8"
-9:  FU                       #"Accrued Demerit","F9"
-10: F                        #"Demerit","F10"
+2:  L                        #"Lost Item Replacement", "F2"     #tämä pois
+3:  L                        #"Lost Item Processing", "F3"      #tämä pois
+4:  F                        #"Media Booking Late Charge","F4"  #tämä pois
+5:  Rent                     #"Media Booking Usage Fee","F5"    #tämä pois
+6:  Rep                      #"Equipment Replacement","F6"      #tämä pois
+7:  L                        #"Lost Equipment Processing","F7"  #tämä pois
+8:  FU                       #"Accrued Fine","F8"               #tämä pois
+9:  FU                       #"Accrued Demerit","F9"            #tämä pois
+10: F                        #"Demerit","F10"                   #tämä pois
 # Mitä näille tehdään:
-# 11 Sisainen lainapyynto      O1
+# 11 Sisainen lainapyynto      O1                               #tämä pois
 # 12 Postimaksu                O2
 # 13 Kaukolainamaksu           O3
 # 14 Kopiomaksu                04
