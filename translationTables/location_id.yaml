@@ -39,7 +39,7 @@
 +CKLAINAUS: ref(21)
 22: branchLoc(EI_KOHAAN,EI_POIS) # POIS
 +POIS: ref(22)
-24: branchLoc(KLA,HANK) # KKhank     #Centria-kirjasto Kokkola hankinta
+24: branchLoc(KLA,HANK) # KKhank                 Centria-kirjasto Kokkola hankinta ?
 +KKhank: ref(24)
 25: branchLoc(KLA,SELF) # KKSELF
 +KKSELF: ref(25)
