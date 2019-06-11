@@ -25,13 +25,13 @@
 +KKkau: ref(11)
 12: branchLoc(EI_KOHAAN,EI_CKlain) # CKlain     Centria lainaosasto, Haapajärvi, laina-aika 14vrk
 +CKlain: ref(12)
-14: branchLoc(KLA,LUETT) # KKLUETT
+14: branchLoc(KLA,LUETT) # KKLUETT               Centria Kla LUETTELOINTI
 +KKLUETT: ref(14)
-16: branchLoc(KLALAINAUS) # KKLAINAUS            Happening location
+16: branchLoc(KLALAINAUS) # KKLAINAUS            "Happening location"
 +KKLAINAUS: ref(16)
 17: branchLoc(EI_KOHAAN,EI_RKLAINAUS) # RKLAINAUS
 +RKLAINAUS: ref(17)
-18: branchLoc(YKALAINAUS) # TOLAINAUS            Happening location
+18: branchLoc(YKALAINAUS) # TOLAINAUS            "Happening location"
 +TOLAINAUS: ref(18)
 20: branchLoc(YKA,LUETT) # TOLUETT               Centria Yka LUETTELOINTI
 +TOLUETT: ref(20)
@@ -45,9 +45,9 @@
 +KKSELF: ref(25)
 26: branchLoc(EI_KOHAAN_EI_RKSELF) # RKSELF
 +RKSELF: ref(26)
-27: branchLoc(KLA,HANKINTA) # KKHANKINTA
+27: branchLoc(KLA,HANKINTA) # KKHANKINTA        Centria Kla HANKINTA
 +KKHANKINTA: ref(27)
-28: branchLoc(TO,HANKINTA) # TOHANKINTA
+28: branchLoc(TO,HANKINTA) # TOHANKINTA         Centria Yka HANKINTA
 +TOHANKINTA: ref(28)
 29: branchLoc(EI_KOHAAN,EI_RKHANKINTA) # RKHANKINTA
 +RKHANKINTA: ref(29)
